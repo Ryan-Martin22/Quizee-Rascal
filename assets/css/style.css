@@ -17,17 +17,29 @@ body {
 .quiz-container {
     background-color: white;
     border-radius: 10px;
+    overflow: hidden;
     box-shadow: 0 0 5px 5px rgb(107, 104, 104);
     width: 600px;
     max-width: 100%;
 }
 
 .quiz-header {
-    padding: 2rem;
+    padding: 4rem;
 }
 
 ul {
     list-style-type: none; 
     padding: 0; 
 
+}
+
+button {
+    background-color:cornflowerblue;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: white; 
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
 }

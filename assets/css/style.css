@@ -34,12 +34,17 @@ ul {
 }
 
 button {
-    background-color:cornflowerblue;
+    background-color:rgb(101, 147, 233);
     font-family: inherit;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
     color: white; 
     display: block;
     width: 100%;
-    padding: 1rem;
+    padding: 1.3rem;
     border: none;
+}
+
+button:hover {
+    background-color: rgb(58, 124, 245);
 }

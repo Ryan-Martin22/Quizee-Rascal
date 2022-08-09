@@ -27,6 +27,48 @@ const quizQuestion = [
         c: 'Sean Combs',
         d: 'Marshal Mathers',
         correct: 'c',
+     }, {
+        question: 'Gillian Anderson plays a therapist in which hit Netflix Show?',
+        a: 'Sex Education',
+        b: 'Stranger Things',
+        c: 'Suits',
+        d: 'Rick and Morty',
+        correct: 'a',
+     }, {
+        question: 'What colour pill does Neo swallow in The Matrix?',
+        a: 'Blue',
+        b: 'Pink',
+        C: 'Green',
+        d: 'Red',
+        correct: 'd',
+     }, {
+        question: 'How many spice options are there at Nandos?',
+        a: '4',
+        b: '6',
+        c: '9',
+        d: '11',
+        correct: 'b',
+     }, {
+        question: 'How many notes are there in a musical scale?',
+        a: '7',
+        b: '30',
+        c: '15',
+        d: '11',
+        correct: 'a',
+     }, {
+        question: 'What is the best selling novel of all time?',
+        a: 'Harry Potter',
+        b: 'To Kill A Mockinbird',
+        c: 'Don Quixote',
+        d: 'Lord Of The Rings',
+        correct: 'c',
+     }, {
+        question: 'What planet has the most moons?',
+        a: 'Uranus',
+        b: 'Saturn',
+        c: 'Mars',
+        d: 'Neptune',
+        correct: 'b',
      }
 
 

@@ -1,1 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Mouse+Memoirs&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: 'fira Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background-color: white;
+
+}

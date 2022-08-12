@@ -74,3 +74,4 @@ const quizQuestion = [
 
 ]
 
+let currentQuestion = 0;

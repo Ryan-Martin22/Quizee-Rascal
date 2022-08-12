@@ -6,14 +6,14 @@ const quizData = [
         c: 'Wolverhamton Wanderers',
         d: 'Luton Town',
         correct: 'b'
-     },{
+     }, {
         question: 'Name the coffee shop in the US Sitcom Friends.',
         a: 'The Big Tea',
         b: 'Coders Coffehouse',
         C: 'Beanhive',
         d: 'Central Perk',
         correct: 'd'
-     },{
+     }, {
         question: 'From what grain is the Japenese spirit Sake made?',
         a: 'Wheat',
         b: 'Rye',
@@ -58,7 +58,7 @@ const quizData = [
      }, {
         question: 'What is the best selling novel of all time?',
         a: 'Harry Potter',
-        b: 'To Kill A Mockinbird',
+        b: 'To Kill A Mockingbird',
         c: 'Don Quixote',
         d: 'Lord Of The Rings',
         correct: 'c',
@@ -70,15 +70,13 @@ const quizData = [
         d: 'Neptune',
         correct: 'b',
      }
+];
 
-
-]
-
-const questionEl = document.getElementById("question");
-const a_text = document.getElementById("a_text");
-const b_text = document.getElementById("b_text");
-const c_text = document.getElementById("c_text");
-const d_text = document.getElementById("d_text");
+const questionElement = document.getElementById("question");
+const a_answer = document.getElementById("a_answer");
+const b_answer = document.getElementById("b_answer");
+const c_answer = document.getElementById("c_answer");
+const d_answer = document.getElementById("d_answer");
 const submitBtn = document.getElementById("submit");
 
 let currentQuiz = 0; 
@@ -90,11 +88,11 @@ loadQuiz();
 function loadQuiz() {
    const currentQuizData = quizData[currentQuiz];
 
-  questionEl.innerText = currentQuizData.question;
-  a_text.innerText = currentQuizData.a;
-  b_text.innerText = currentQuizData.b;
-  c_text.innerText = currentQuizData.c;
-  d_text.innerText = currentQuizData.d;
+  questionElement.innerText = currentQuizData.question;
+  a_answer.innerText = currentQuizData.a;
+  b_answer.innerText = currentQuizData.b;
+  c_answer.innerText = currentQuizData.c;
+  d_answer.innerText = currentQuizData.d;
 
    currentQuiz++;
 }

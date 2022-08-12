@@ -1,4 +1,4 @@
-const quizQuestion = [
+const quizData = [
      {
         question: 'Which football club plays its home games at Loftus Road?',
         a: 'Manchester United',
@@ -74,19 +74,21 @@ const quizQuestion = [
 
 ]
 
-const a_text = document.getElementById()
-const b_text = document.getElementById()
-const c_text = document.getElementById()
-const d_text = document.getElementById()
+const questionElement = document.getElementById('question');
+const a_text = document.getElementById('a_text');
+const b_text = document.getElementById('b_text');
+const c_text = document.getElementById('c_text');
+const d_text = document.getElementById('d_text');
 
-let currentQuestion = 0; 
+let currentQuiz = 0; 
 
 /** Function tha loads quiz when DOM is finished loading */
 
 loadQuiz();
 
 function loadQuiz(); {
-
+   const currentQuizData = quizData[currentQuestion];
+  questionElement.innerHTML = quizdata[currentQuestion];
 
    currentQuestion++;
 }

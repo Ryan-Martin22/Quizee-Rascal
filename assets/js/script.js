@@ -74,4 +74,22 @@ const quizQuestion = [
 
 ]
 
-let currentQuestion = 0;
+const a_text = document.getElementById()
+const b_text = document.getElementById()
+const c_text = document.getElementById()
+const d_text = document.getElementById()
+
+let currentQuestion = 0; 
+
+/** Function tha loads quiz when DOM is finished loading */
+
+loadQuiz();
+
+function loadQuiz(); {
+
+
+   currentQuestion++;
+}
+
+
+

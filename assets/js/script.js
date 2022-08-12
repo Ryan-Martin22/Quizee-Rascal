@@ -96,13 +96,13 @@ function loadQuiz() {
   c_text.innerText = currentQuizData.c;
   d_text.innerText = currentQuizData.d;
 
-   currentQuestion++;
+   currentQuiz++;
 }
 
-submitBtn.addEventListener('click ', () => {
-   currentQuestion++;
+submitBtn.addEventListener("click", () => {
+   currentQuiz++;
 
-   loadQuiz()
-})
+   loadQuiz();
+});
 
 

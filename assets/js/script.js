@@ -73,10 +73,10 @@ const quizData = [
 ];
 
 const questionElement = document.getElementById("question");
-const a_answer = document.getElementById("a_answer");
-const b_answer = document.getElementById("b_answer");
-const c_answer = document.getElementById("c_answer");
-const d_answer = document.getElementById("d_answer");
+const a_answer = document.getElementById("answerA");
+const b_answer = document.getElementById("answerB");
+const c_answer = document.getElementById("answerC");
+const d_answer = document.getElementById("answerD");
 const submitBtn = document.getElementById("submit");
 const welcomeSection = document.getElementById("welcome");
 const gameSection = document.getElementById("quiz-section");

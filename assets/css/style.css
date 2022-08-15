@@ -58,3 +58,7 @@ button {
 button:hover {
     background-color: rgb(58, 124, 245);
 }
+
+.hide {
+    display: none;
+}

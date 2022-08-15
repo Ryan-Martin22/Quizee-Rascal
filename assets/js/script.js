@@ -78,6 +78,8 @@ const b_answer = document.getElementById("b_answer");
 const c_answer = document.getElementById("c_answer");
 const d_answer = document.getElementById("d_answer");
 const submitBtn = document.getElementById("submit");
+const welcomeSection = document.getElementById("welcome");
+const gameSection = document.getElementById("quiz-section")
 
 let currentQuiz = 0; 
 

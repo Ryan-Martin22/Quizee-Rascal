@@ -105,5 +105,8 @@ submitBtn.addEventListener("click", () => {
    loadQuiz();
 });
 
-
+function hide() {
+   welcomeSection.classList.add("hide")
+   gameSection.classList.remove("hide")
+}
 

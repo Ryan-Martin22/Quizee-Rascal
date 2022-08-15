@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,36 +12,38 @@
 
 <body>
     <div id="welcome">
-       <h1>Quizzee Rascal</h1>
-    <button onclick="hide()">Lets Start</button>
+        <h1>Quizee Rascal</h1>
+        <button onclick="hide()">Lets Start</button>
     </div>
 
-    <div class="quiz-container quiz-style hide">
-        <div class="quiz-header">
-            <h2 id="question">Question text</h2>
-        <ul>
-            <li>
-                <input type="radio" id="a" name="answer">
-                <label id="a_answer" for="a">Question</label>
-            </li>
-            <li>
-                <input type="radio" id="b" name="answer">
-                <label id="b_answer" for="b">Question</label> 
-            </li>
-            <li>
-                <input type="radio" id="c" name="answer">
-                <label id="c_answer" for="c">Question</label>
-            </li>
-            <li>
-                <input type="radio" id="d" name="answer">
-                <label id="d_answer" for="d">Question</label>
-            </li>
-        </ul>
-    </div>
-    <button id="submit">Submit Answer</button>
-    </div>
-    
+    <div id="quiz-section" class="quiz-section hide">
+        <div class="quiz-container quiz-style">
+            <div class="quiz-header">
+                <h2 id="question">Question text</h2>
+                <ul>
+                    <li>
+                        <input type="radio" id="a" name="answer">
+                        <label id="a_answer" for="a">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="b" name="answer">
+                        <label id="b_answer" for="b">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="c" name="answer">
+                        <label id="c_answer" for="c">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="d" name="answer">
+                        <label id="d_answer" for="d">Question</label>
+                    </li>
+                </ul>
+            </div>
+            <button id="submit">Submit Answer</button>
+        </div>
+        <div>
 
-    <script src="assets/js/script.js"></script>
+            <script src="assets/js/script.js"></script>
 </body>
+
 </html>

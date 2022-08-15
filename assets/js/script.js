@@ -10,7 +10,7 @@ const quizData = [
         question: 'Name the coffee shop in the US Sitcom Friends.',
         a: 'The Big Tea',
         b: 'Coders Coffehouse',
-        C: 'Beanhive',
+        c: 'Beanhive',
         d: 'Central Perk',
         correct: 'd'
      }, {
@@ -94,7 +94,7 @@ function loadQuiz() {
   c_answer.innerText = currentQuizData.c;
   d_answer.innerText = currentQuizData.d;
 
-   currentQuiz++;
+
 }
 
 submitBtn.addEventListener("click", () => {
@@ -102,5 +102,6 @@ submitBtn.addEventListener("click", () => {
 
    loadQuiz();
 });
+
 
 

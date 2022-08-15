@@ -111,5 +111,9 @@ button:hover {
     background-color: rgba(86, 185, 235, 0.5);
     padding: .5rem 0; 
 
-} 
+}  
 
+.logo {
+    height: 40px;
+    padding-right: 5px;
+}

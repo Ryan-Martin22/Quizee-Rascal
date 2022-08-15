@@ -82,9 +82,12 @@ const welcomeSection = document.getElementById("welcome");
 const gameSection = document.getElementById("quiz-section");
 const answers =  document.getElementsByClassName("answers");
 
+
+
 let currentQuiz = 0; 
 let chosenAnswer; 
 let score = 0; 
+
 
 
 /** Function tha loads quiz when DOM is finished loading */
@@ -128,6 +131,7 @@ function clearSelection () {
       answer.classList.remove("selected")
    }
 }
+
 
 function checkAnswer(choice) {
    if(quizData[currentQuiz].correct === choice) {

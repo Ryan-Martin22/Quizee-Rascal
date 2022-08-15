@@ -62,3 +62,8 @@ button:hover {
 .hide {
     display: none;
 }
+
+.selected {
+    background-color: greenyellow;
+    padding: .5rem 0; 
+}

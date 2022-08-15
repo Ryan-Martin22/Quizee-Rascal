@@ -79,32 +79,81 @@ const c_answer = document.getElementById("c_answer");
 const d_answer = document.getElementById("d_answer");
 const submitBtn = document.getElementById("submit");
 const welcomeSection = document.getElementById("welcome");
-const gameSection = document.getElementById("quiz-section")
+const gameSection = document.getElementById("quiz-section");
+const answers =  document.getElementsByClassName("answers");
 
 let currentQuiz = 0; 
+let chosenAnswer; 
+let score = 0; 
+
 
 /** Function tha loads quiz when DOM is finished loading */
 
 loadQuiz();
 
 function loadQuiz() {
+   clearSelection()
    const currentQuizData = quizData[currentQuiz];
+   if (quizData.length === currentQuiz) {
+      console.log('end')
+     }  else {
 
   questionElement.innerText = currentQuizData.question;
   a_answer.innerText = currentQuizData.a;
   b_answer.innerText = currentQuizData.b;
   c_answer.innerText = currentQuizData.c;
   d_answer.innerText = currentQuizData.d;
+    }
+}
+ 
+submitBtn.addEventListener("click", () => {
+    checkAnswer(chosenAnswer)
+});
 
+for(let answer of answers) {
+   answer.addEventListener("click", () => {
+   if (chosenAnswer) {
+      clearSelection()
+   }
 
+   answer.classList.add("selected")
+   chosenAnswer = answer.dataset.selection
+   })
 }
 
-submitBtn.addEventListener("click", () => {
-   console.log(a_answer, b_answer, c_answer, d_answer)
-   currentQuiz++;
-    
-   loadQuiz();
-});
+function clearSelection () {
+   chosenAnswer = null 
+   for (let answer of answers) 
+   if (answer.classList.contains("selected")) {
+      answer.classList.remove("selected")
+   }
+}
+
+function checkAnswer(choice) {
+   if(quizData[currentQuiz].correct === choice) {
+      Swal.fire({
+         position: 'center',
+         icon: 'success',
+         title: 'Correct!',
+         showConfirmButton: false,
+         timer: 1500
+       })
+      score++
+      console.log(score)
+   } else {
+
+      Swal.fire({
+         position: 'center',
+         icon: 'error',
+         title: 'Oops! Wrong Answer',
+         showConfirmButton: false,
+         timer: 1500
+       })
+      console.log("wrong")
+   }
+   currentQuiz++
+   loadQuiz()
+}
 
 function hide() {
    welcomeSection.classList.add("hide")

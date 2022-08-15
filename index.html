@@ -20,29 +20,31 @@
         <div class="quiz-container quiz-style">
             <div class="quiz-header">
                 <h2 id="question">Question text</h2>
-                <ul>
-                    <li>
-                        <input type="radio" id="a" name="answer">
-                        <label id="a_answer" for="a">Question</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="b" name="answer">
-                        <label id="b_answer" for="b">Question</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="c" name="answer">
-                        <label id="c_answer" for="c">Question</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="d" name="answer">
-                        <label id="d_answer" for="d">Question</label>
-                    </li>
-                </ul>
+
+            <div data-selection="a" id="answerA" class="answers">
+            <p>This is testing</p>
             </div>
+
+            <div data-selection="b" id="answerB" class="answers">
+            <p>This is testing</p>
+            </div>
+
+            <div data-selection="c" id="answerC" class="answers">
+            <p>This is testing</p>
+            </div>
+
+            <div data-selection="d" id="answerD" class="answers">
+            <p>This is testing</p>
+            </div>
+      </div>
             <button id="submit">Submit Answer</button>
         </div>
         <div>
+  
 
+        <div class="end-section" id="end-section"></div>
+        
+            <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
             <script src="assets/js/script.js"></script>
 </body>
 

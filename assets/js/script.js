@@ -38,11 +38,11 @@ const quizData = [
         question: 'What colour pill does Neo swallow in The Matrix?',
         a: 'Blue',
         b: 'Pink',
-        C: 'Green',
+        c: 'Green',
         d: 'Red',
         correct: 'd',
      }, {
-        question: 'How many spice options are there at Nandos?',
+        question: 'How many spic options are there at Nandos?',
         a: '4',
         b: '6',
         c: '9',
@@ -100,13 +100,16 @@ function loadQuiz() {
 }
 
 submitBtn.addEventListener("click", () => {
+   console.log(a_answer, b_answer, c_answer, d_answer)
    currentQuiz++;
-
+    
    loadQuiz();
 });
 
 function hide() {
    welcomeSection.classList.add("hide")
    gameSection.classList.remove("hide")
-}
+} 
+
+
 

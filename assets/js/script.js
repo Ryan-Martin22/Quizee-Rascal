@@ -81,16 +81,12 @@ const submitBtn = document.getElementById("submit");
 const welcomeSection = document.getElementById("welcome");
 const gameSection = document.getElementById("quiz-section");
 const answers =  document.getElementsByClassName("answers");
-const endSection = document.getElementById("end-section")
-const finalScore = document.getElementById("finalScore")
-
-
+const endSection = document.getElementById("end-section");
+const finalScore = document.getElementById("finalScore");
 
 let currentQuiz = 0; 
 let chosenAnswer; 
 let score = 0; 
-
-
 
 /** Function tha loads quiz when DOM is finished loading */
 
@@ -101,7 +97,7 @@ function loadQuiz() {
 
    clearSelection()
 
-   if (quizData.length === currentQuiz) {
+   if (quizData.length !== currentQuiz) {
       questionElement.innerText = currentQuizData.question;
       a_answer.innerText = currentQuizData.a;
       b_answer.innerText = currentQuizData.b;
@@ -112,6 +108,7 @@ function loadQuiz() {
       endGame()
      }
 }
+
  
 submitBtn.addEventListener("click", () => {
     checkAnswer(chosenAnswer)
@@ -145,7 +142,7 @@ function checkAnswer(choice) {
          title: 'Correct!',
          showConfirmButton: false,
          timer: 1500
-       }).then (() =>{
+       }).then (() => {
          score++
          currentQuiz++
          loadQuiz()
@@ -170,9 +167,14 @@ function checkAnswer(choice) {
 }
 
 function endGame() {
-   gameSection.classList.add("hide");
-   endSection.classList.remove("hide");
+   showHide(gameSection);
+   showHide(endSection)
    finalScore.innerText = `${score}/10`;
+}
+
+
+function showHide(target) {
+   target.classList.contains("hide") ? target.classList.remove("hide") : target.classList.add("hide")
 }
 
 

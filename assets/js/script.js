@@ -81,6 +81,8 @@ const submitBtn = document.getElementById("submit");
 const welcomeSection = document.getElementById("welcome");
 const gameSection = document.getElementById("quiz-section");
 const answers =  document.getElementsByClassName("answers");
+const endSection = document.getElementById("end-section")
+const finalScore = document.getElementById("finalScore")
 
 
 
@@ -159,22 +161,16 @@ function checkAnswer(choice) {
        }).then (() =>{
          score++
          currentQuiz++
-         loadQuiz()
+         loadQuiz();
       
    }) 
 }
+}
 
-   if (currentQuiz < quizData.length) {
-      loadQuiz();
-  } else {
-      quiz.innerHTML = `
-          <h2>You answered correctly at ${score}/${quizData.length} questions.</h2>
-          
-          <button onclick="location.reload()">Reload</button>`;
-      
-  }
-
-
+function endGame() {
+   gameSection.classList.add("hide");
+   endSection.classList.remove("hide");
+   finalScore.innerText = `${score}/10`;
 }
 
 

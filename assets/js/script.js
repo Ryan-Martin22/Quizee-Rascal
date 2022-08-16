@@ -103,7 +103,6 @@ function loadQuiz() {
       b_answer.innerText = currentQuizData.b;
       c_answer.innerText = currentQuizData.c;
       d_answer.innerText = currentQuizData.d;
-      
      }  else {
       endGame()
      }

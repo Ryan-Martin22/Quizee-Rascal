@@ -109,21 +109,7 @@ function loadQuiz() {
      }
 }
 
- 
-submitBtn.addEventListener("click", () => {
-    checkAnswer(chosenAnswer)
-});
 
-for(let answer of answers) {
-   answer.addEventListener("click", () => {
-   if (chosenAnswer) {
-      clearSelection()
-   }
-
-   answer.classList.add("selected")
-   chosenAnswer = answer.dataset.selection
-   })
-}
 
 function clearSelection () {
    chosenAnswer = null 
@@ -168,7 +154,7 @@ function checkAnswer(choice) {
 
 function endGame() {
    showHide(gameSection);
-   showHide(endSection)
+   showHide(endSection);
    finalScore.innerText = `${score}/10`;
 }
 
@@ -178,10 +164,27 @@ function showHide(target) {
 }
 
 
-function hide() {
-   welcomeSection.classList.add("hide")
-   gameSection.classList.remove("hide")
-} 
+startGame.addEventListener("click", () => {
+   showHide(welcomeSection)
+   showHide(gameSection)
+})
+ 
+submitBtn.addEventListener("click", () => {
+    checkAnswer(chosenAnswer)
+});
+
+for(let answer of answers) {
+   answer.addEventListener("click", () => {
+   if (chosenAnswer) {
+      clearSelection()
+   }
+
+   answer.classList.add("selected")
+   chosenAnswer = answer.dataset.selection
+   })
+}
+
+
 
 
 

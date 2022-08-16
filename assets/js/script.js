@@ -97,18 +97,20 @@ let score = 0;
 loadQuiz();
 
 function loadQuiz() {
-   clearSelection()
    const currentQuizData = quizData[currentQuiz];
-   if (quizData.length === currentQuiz) {
-      console.log('end')
-     }  else {
 
-  questionElement.innerText = currentQuizData.question;
-  a_answer.innerText = currentQuizData.a;
-  b_answer.innerText = currentQuizData.b;
-  c_answer.innerText = currentQuizData.c;
-  d_answer.innerText = currentQuizData.d;
-    }
+   clearSelection()
+
+   if (quizData.length === currentQuiz) {
+      questionElement.innerText = currentQuizData.question;
+      a_answer.innerText = currentQuizData.a;
+      b_answer.innerText = currentQuizData.b;
+      c_answer.innerText = currentQuizData.c;
+      d_answer.innerText = currentQuizData.d;
+      
+     }  else {
+      endGame()
+     }
 }
  
 submitBtn.addEventListener("click", () => {

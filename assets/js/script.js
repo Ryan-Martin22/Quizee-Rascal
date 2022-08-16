@@ -141,9 +141,13 @@ function checkAnswer(choice) {
          title: 'Correct!',
          showConfirmButton: false,
          timer: 1500
+       }).then (() =>{
+         score++
+         currentQuiz++
+         loadQuiz()
        })
-      score++
-      console.log(score)
+      
+      
    } else {
 
       Swal.fire({
@@ -152,11 +156,13 @@ function checkAnswer(choice) {
          title: 'Oops! Wrong Answer',
          showConfirmButton: false,
          timer: 1500
-       })
-      console.log("wrong")
-   }
-   currentQuiz++
-   loadQuiz()
+       }).then (() =>{
+         score++
+         currentQuiz++
+         loadQuiz()
+      
+   }) 
+}
 
    if (currentQuiz < quizData.length) {
       loadQuiz();

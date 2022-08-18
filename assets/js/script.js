@@ -83,6 +83,7 @@ const gameSection = document.getElementById("quiz-section");
 const answers =  document.getElementsByClassName("answers");
 const endSection = document.getElementById("end-section");
 const finalScore = document.getElementById("finalScore");
+const restartGame = document.getElementById("quiz-section")
 
 let currentQuiz = 0; 
 let chosenAnswer; 

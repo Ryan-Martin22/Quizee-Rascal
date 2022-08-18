@@ -84,7 +84,7 @@ const answers =  document.getElementsByClassName("answers");
 const endSection = document.getElementById("end-section");
 const finalScore = document.getElementById("finalScore");
 const restart = document.getElementById("restart");
-const startGame = document.getElementById("startGame")
+const startGame = document.getElementById("startGame");
 
 
 let currentQuiz = 0; 
@@ -166,7 +166,7 @@ function endGame() {
 /** Restart game button listener */
 restart.addEventListener("click", () => {
    location.reload(gameSection);
-})
+});
 
 /**
  * Toggles display of target element

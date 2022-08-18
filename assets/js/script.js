@@ -88,7 +88,6 @@ let currentQuiz = 0;
 let chosenAnswer; 
 let score = 0; 
 
-
 /** Function tha loads quiz when DOM is finished loading and retrieves questions from html  */
 
 loadQuiz();
@@ -150,8 +149,7 @@ function checkAnswer(choice) {
          timer: 1500
        }).then (() =>{
          currentQuiz++;
-         loadQuiz();
-      
+         loadQuiz(); 
    });
 }
 }
@@ -177,7 +175,6 @@ startGame.addEventListener("click", () => {
    showHide(gameSection);
 });
 
- 
 submitBtn.addEventListener("click", () => {
     checkAnswer(chosenAnswer);
 });

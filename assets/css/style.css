@@ -49,7 +49,6 @@ body {
 
 #rascal {
     font-size: 50px; 
-
 }
 
 h2 {
@@ -57,13 +56,10 @@ h2 {
 
 }
 
-
-
 .answers {
     margin: 1rem 0;
     font-size: 1.1rem;
-    cursor: pointer;
-    
+    cursor: pointer; 
 } 
 
 /* styling for all buttons*/
@@ -95,7 +91,6 @@ button:hover {
 .selected {
     background-color: rgba(86, 185, 235, 0.5);
     padding: .1rem 0; 
-
 }  
 
 /* styling and repsonsivness for logo*/

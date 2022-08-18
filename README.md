@@ -95,7 +95,7 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 * The W3C CSS Validator was used to validate the CSS. 
 ![CSS Validation](assets/images/Screenshot(136).png)
 
-* Lighthouse was also used to test the performance of the website. ![Lighthouse](assets/images/Screenshot(144).png)
+* Lighthouse was also used to test the performance of the website. ![Lighthouse](assets/images/Screenshot(153).png)
 
 * WAVE Accessibility Evaluation Tool was used to test accessibility. ![Accessibility](assets/images/Screenshot(151).png)
 

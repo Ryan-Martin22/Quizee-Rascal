@@ -51,29 +51,6 @@ body {
 
 }
 
-.zoom {
-
-animation-name: zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards; 
-
-}
-
-/* creates level of zoom */ 
-
-@keyframes zoom {
-        from{
-            transform: scale(1);
-        }
-
-        to{
-           transform: scale(1.1);
-        }
-
-
-}
-
-
 h2 {
     margin: 0;
 

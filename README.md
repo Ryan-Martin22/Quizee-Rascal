@@ -5,7 +5,7 @@
 
 ## Overview
 
-Quizee Rascal is an online interactive quiz game. The quiz is based on general knowledge with question from categories such as mocies,music,food,geography and pop culture. Quiz questions vary in difficulty so it is suitable for ages. The quiz is targeted towards anyone looking for a simple quiz consisting of fun and entertaining questions. 
+Quizee Rascal is an online interactive quiz game. The quiz is based on general knowledge with question from categories such as movies,music,food,geography and pop culture. Quiz questions vary in difficulty so it is suitable for ages. The quiz is targeted towards anyone looking for a simple quiz consisting of fun and entertaining questions. 
 
 # Features 
 
@@ -26,7 +26,7 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 
 ![Mockup image](assets/images/Screenshot(140).png)
 
-* When the user hits the submits button, the user is the told whether the answer was correct or wrong. The user is greeted with a fun and pleasant animation. 
+* When the user hits the submit button, the user is the told whether the answer was correct or wrong. The user is greeted with a fun and pleasant animation. 
 
 ![Mockup image](assets/images/Screenshot(141).png) 
 
@@ -48,13 +48,13 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 3. As a user i want a quiz that is suitable for all ages and interests. 
 4. As a user i want the question i am choosing to be easily identifiable as to not choose the wrong question. 
 5. As a user i want instant feedback as to whether my choosen answer was correct or incorrect. 
-6. As a user i want to see my final acore and be able to try again to improve my score. 
+6. As a user i want to see my final score and be able to try again to improve my score. 
 
 # Design 
 
 ## Colour Scheme 
 
-* The main colours used for the quiz were white, light blue and a shade of blue called alicblue. These colours are inviting and clear to see for users of all ages. The colour blue is associated with freedom, imagination, intuition and inspiration. It is mentally an ideal colour for a user taking part in a quiz. 
+* The main colours used for the quiz were white, light blue and a shade of blue called aliceblue. These colours are inviting and clear to see for users of all ages. The colour blue is associated with freedom, imagination, intuition and inspiration. It is mentally an ideal colour scheme for a user taking part in a quiz. 
 * The colours were aliceblue, white and rgb(101, 147, 233). 
 
 ## Typography 
@@ -113,7 +113,7 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 
 3. As a user i want a quiz that is suitable for all ages and interests. 
 
-* The simple design and presentatin of the quiz was the first element that made this quiz easy to use and make it suitable for all ages. The questions were also varied to suit adults and kids alike. 
+* The simple design and presentation of the quiz was the first element that made this quiz easy to use and make it suitable for all ages. The questions were also varied to suit adults and kids alike. 
 
 
 4. As a user i want the question I am choosing to be easily identifiable as to not choose the wrong question.
@@ -165,5 +165,5 @@ The project was deployed to GitHub Pages using the following steps...
 * All images were created by myself based of font obtained from dafont.com 
 
 ### Acknowledgements
-* My Mentor for the continuous feedback and invaluable help i recieved throughout the duration of my project. 
+* My Mentor for the continous feedback and invaluable help i recieved throughout the duration of my project. 
 * My peers on Slack for assistance on all queries i had. 

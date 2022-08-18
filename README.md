@@ -55,11 +55,11 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 ## Colour Scheme 
 
 * The main colours used for the quiz were white, light blue and a shade of blue called aliceblue. These colours are inviting and clear to see for users of all ages. The colour blue is associated with freedom, imagination, intuition and inspiration. It is mentally an ideal colour scheme for a user taking part in a quiz. 
-* The colours were aliceblue, white and rgb(101, 147, 233). 
+* The colours were aliceblue #F0F8FF, white #FFFFFF and rgb(101, 147, 233). 
 
 ## Typography 
 
-* The font used for the questions and answers was Solway. Sans Serif was used as a fallback in case of the Google Fonts link not working. Soloway was used to ensure a level of fun and playfulness.[Google fonts]https://fonts.google.com/?query=solway.
+* The font used for the questions and answers was Solway. Sans Serif was used as a fallback in case of the Google Fonts link not working. Soloway was used to ensure a level of fun and playfulness.[Google fonts](https://fonts.google.com/?query=solway).
 
 ## Imagery 
 * The imagery used for this game was designed by myself. Using the K26 ToyBox font from dafont.com
@@ -128,10 +128,16 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 
 * At the end of the quiz my score was clearly visible with a simple and easy to read user interface. I could also hit the try again button which was ideal for re-playability as i could go back and do the quiz again and try to improve my score. 
 
+# Responsivness and Functionality 
+
+* Responsivness was tested using chrome DevTools to test at different screen sizes to ensure the quiz game was visible and all elements and functions were presne on screen sizes ranging from laptop to mobile device. I also tested this on the mobiles of friends and family. 
+
+* Funtionality was tested by physically playing the game and clicking each button numerous times to ensure each element produced the desired function. This was done to ensure the game functioned correctly. 
+
 # Bugs and Fixes
 
 1. When Sweet Alert opened to show the user the result,the next question would already load in the background. 
-* To fix this I added a variable that would stop the input from proceeding until the next question was loaded. 
+* As sweet alert is provided as a promise i used the then()  method allow the code to execute after the popup promise resolved 
 
 2. When the quiz finished the score was always 10/10 even with incorrect answers throughout the quiz. 
 * To fix this i deleted and replaced a variable so that only the correct answers were being considered for the end game variable. 
@@ -156,7 +162,7 @@ The project was deployed to GitHub Pages using the following steps...
 ## Credits 
 
 ### Code
-*  A tutorial on Youtube gave me a base knowledge of steps needed to create a quiz and how to develop a basic quiz structure. [link][https://www.youtube.com/watch?v=dtKciwk_si4]
+*  A tutorial on Youtube gave me a base knowledge of steps needed to create a quiz and how to develop a basic quiz structure. [link](https://www.youtube.com/watch?v=dtKciwk_si4)
 
 ### Content
 * All content was written by the developer. 

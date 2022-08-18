@@ -88,7 +88,7 @@ let currentQuiz = 0;
 let chosenAnswer; 
 let score = 0; 
 
-/** Function tha loads quiz when DOM is finished loading */
+/** Function tha loads quiz when DOM is finished loading and retrieves questions from html  */
 
 loadQuiz();
 
@@ -108,7 +108,9 @@ function loadQuiz() {
      }
 }
 
-
+/** clears the answer selection when another answer is submitted
+ * @param {*} target
+ */
 
 function clearSelection () {
    chosenAnswer = null 
@@ -118,6 +120,9 @@ function clearSelection () {
    }
 }
 
+/** checks answer is correct or wrong, returns an animation and adds score
+ * @param {*} target
+ */
 
 function checkAnswer(choice) {
    if(quizData[currentQuiz].correct === choice) {
@@ -150,12 +155,17 @@ function checkAnswer(choice) {
 }
 }
 
+/** Ends game when all questions are complete and shows final score out of ten
+ * @param {*} target
+ */
+
 function endGame() {
    showHide(gameSection);
    showHide(endSection);
    finalScore.innerText = `${score}/10`;
 }
 
+/** Teranry operator for cleaner more concise code */
 
 function showHide(target) {
    target.classList.contains("hide") ? target.classList.remove("hide") : target.classList.add("hide")

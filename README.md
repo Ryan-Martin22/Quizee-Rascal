@@ -65,6 +65,42 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 * The imagery used for this game was designed by myself. Using the K26 ToyBox font from dafont.com
 * I edited the image in Paint 3D by windows. 
 
+## Technologies Used 
+
+### Languages Used 
+
+* HTML5
+* CSS
+* JavaScript 
+
+### Frameworks, Libraries and Programs Used 
+
+1.  Google Fonts 
+    - Google fonts were used to import the 'Solway' font into the style.css file which is used on all pages throughout the project.
+
+2.  Sweet Alert 2 
+    - Sweet Alert 2 was used to give pop up feedback to the user after an answer was submitted.
+
+3. Font Awesome 
+    - Font Awesome was used on results section to add icons for aesthetic and UX purposes.  
+
+4. GitHub 
+      - GitHub is used to store the projects code after being pushed from Git.
+
+## Testing 
+
+* The W3C Markup Validator was used to validate the HTML. 
+![HTML Validation](assets/images/Screenshot(135).png)
+
+* The W3C CSS Validator was used to validate the CSS. 
+![CSS Validation](assets/images/Screenshot(136).png)
+
+* Lighthouse was also used to test the performance of the website. ![Lighthouse](assets/images/Screenshot(144).png)
+
+* WAVE Accessibility Evaluation Tool was used to test accessibility. ![Accessibility]
+
+* To test the responsiveness of the website i utilised Chrome DevTools to inspect the website at different screen sizes. I also tested on my mobile and mobile devices of family and freinds.
+
 
 
 

@@ -101,6 +101,32 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 
 * To test the responsiveness of the website i utilised Chrome DevTools to inspect the website at different screen sizes. I also tested on my mobile and mobile devices of family and freinds.
 
+## Testing User Stories 
+
+1. As a user i want to be greeted with a pleasant and not overwhelming landing page. 
+
+* Upon entering the site it was very clear what the site was due to the name of the quiz. the site was very clear and clean and i was not overwhelmed by over the top colours or animations. 
+
+2. As a user i want to be challenged with various questions from various categories. 
+
+* Beginning the quiz was as simple as hitting the begin button and the quiz smoothly took me to the game section.The quiz did not need to load another page so the experience was smooth and enjoyable. 
+
+3. As a user i want a quiz that is suitable for all ages and interests. 
+
+* The simple design and presentatin of the quiz was the first element that made this quiz easy to use and make it suitable for all ages. The questions were also varied to suit adults and kids alike. 
+
+
+4. As a user i want the question I am choosing to be easily identifiable as to not choose the wrong question.
+
+* A beneficial feature of the quiz was when the answers highlighted whenever they were selected. This made it easy for me to not make any mistake when choosing my answer, ensuring I got the highest score possible, 
+
+5. As a user I want instant feedback as to whether my choosen answer was correct or incorrect. 
+
+* Upon submitting my answer I was pleasantly greeted as to whether my answer was correct or incorrect. The animation was fun and it also added to the future playabliity of the quiz because I then knew what questions I was getting wrong which i could correct the next time. 
+
+6. As a user i want to see my final score and be able to try again to improve my score. 
+
+* At the end of the quiz my score was clearly visible with a simple and easy to read user interface. I could also hit the try again button which was ideal for re-playability as i could go back and do the quiz again and try to improve my score. 
 
 
 

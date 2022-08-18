@@ -168,7 +168,7 @@ function endGame() {
 }  
 
 restart.addEventListener("click", () => {
-   location.reload(gameSection)
+   location.reload(gameSection);
 })
 
 /** Teranry operator for cleaner more concise code */

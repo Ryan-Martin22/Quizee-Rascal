@@ -69,7 +69,7 @@ h2 {
 /* styling for all buttons*/
 
 button {
-    background-color:rgb(101, 147, 233);
+    background-color:rgb(58, 124, 245);
     font-family: inherit;
     font-size: 1.3rem;
     cursor: pointer;
@@ -81,7 +81,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(58, 124, 245);
+    background-color: rgb(30, 103, 236);
 }
 
 /* hide to not display elements with hide class until called */

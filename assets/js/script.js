@@ -83,11 +83,13 @@ const gameSection = document.getElementById("quiz-section");
 const answers =  document.getElementsByClassName("answers");
 const endSection = document.getElementById("end-section");
 const finalScore = document.getElementById("finalScore");
-const restartGame = document.getElementById("quiz-section")
+const restart = document.getElementById("restart")
+
 
 let currentQuiz = 0; 
 let chosenAnswer; 
-let score = 0; 
+let score = 0;
+
 
 /** Function tha loads quiz when DOM is finished loading and retrieves questions from html  */
 
@@ -163,7 +165,11 @@ function endGame() {
    showHide(gameSection);
    showHide(endSection);
    finalScore.innerText = `${score}/10`;
-}
+}  
+
+restart.addEventListener("click", () => {
+   location.reload(gameSection)
+})
 
 /** Teranry operator for cleaner more concise code */
 

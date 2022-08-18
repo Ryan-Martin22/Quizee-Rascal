@@ -128,6 +128,17 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 
 * At the end of the quiz my score was clearly visible with a simple and easy to read user interface. I could also hit the try again button which was ideal for re-playability as i could go back and do the quiz again and try to improve my score. 
 
+# Bugs and Fixes
+
+1. When Sweet Alert opened to show the user the result,the next question would already load in the background. 
+* To fix this I added a variable that would stop the input from proceeding until the next question was loaded. 
+
+2. When the quiz finished the score was always 10/10 even with incorrect answers throughout the quiz. 
+* To fix this i deleted and replaced a variable so that only the correct answers were being considered for the end game variable. 
+
+3. While trying to use a font from dafont.com for the heading it was not possible to implement this font with a kit or link on my repository. 
+* To fix this problem I saved the font to my laptop and used Paint 3D to create the heading, using the screenshot function i then saved the image and saved in my images folder to be used.  
+
 ## Deployment
 
 ### GitHub Pages

@@ -74,7 +74,7 @@ const quizData = [
 
 const questionElement = document.getElementById("question");
 const answerA = document.getElementById("answerA");
-const BanswerB = document.getElementById("answerB");
+const answerB = document.getElementById("answerB");
 const answerC = document.getElementById("answerC");
 const answerD = document.getElementById("answerD");
 const submitBtn = document.getElementById("submit");
@@ -99,10 +99,10 @@ function loadQuiz() {
 
    if (quizData.length !== currentQuiz) {
       questionElement.innerText = currentQuizData.question;
-      a_answer.innerText = currentQuizData.a;
-      b_answer.innerText = currentQuizData.b;
-      c_answer.innerText = currentQuizData.c;
-      d_answer.innerText = currentQuizData.d;
+      answerA.innerText = currentQuizData.a;
+      answerB.innerText = currentQuizData.b;
+      answerC.innerText = currentQuizData.c;
+      answerD.innerText = currentQuizData.d;
      }  else {
       endGame()
      }

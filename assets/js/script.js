@@ -42,7 +42,7 @@ const quizData = [
         d: 'Red',
         correct: 'd',
      }, {
-        question: 'How many spic options are there at Nandos?',
+        question: 'How many spice options are there at Nandos?',
         a: '4',
         b: '6',
         c: '9',

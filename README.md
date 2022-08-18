@@ -19,7 +19,7 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 
 ![Mockup image](assets/images/Screenshot(139).png)
 
-## Quiz Section 
+### Quiz Section 
 
 * The quiz section features a general knowledge question followed by four random answers. The answers are designed to be challenging but also fun. The user should not feel frustrated trying to get the answer. 
 * When an answer is chosen, it is then highlighted, this is done to prevent the user from accidently choosing the wrong answer. 
@@ -30,10 +30,23 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 
 ![Mockup image](assets/images/Screenshot(141).png) 
 
-## Results Section 
+### Results Section 
 
 * When the ten questions are completed, the user is then greeted with the results section were the final score is shown. There is also a button the user can press to try again and for an improved score. 
 
 ![Mockup Image](assets/images/Screenshot(142).png)
 
+## Future Features 
+
+* In the future Quizze Rascal will feature a dropdown menu on the landing page were the user can choose from a range of categories. 
+* In the future a picture category will also be deplyed as part of Quizee Rascal. 
+
+# User Stories 
+
+1. As a user i want to be greeted with a pleasant and not overwhelming landing page.
+2. As a user i want to be challenged with various questions from various categories. 
+3. As a user i want a quiz that is suitable for all ages and interests. 
+4. As a user i want the question i am choosing to be easily identifiable as to not choose the wrong question. 
+5. As a user i want instant feedback as to whether my choosen answer was correct or incorrect. 
+6. As a user i want to see my final acore and be able to try again to improve my score. 
 

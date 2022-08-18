@@ -84,6 +84,7 @@ const answers =  document.getElementsByClassName("answers");
 const endSection = document.getElementById("end-section");
 const finalScore = document.getElementById("finalScore");
 const restart = document.getElementById("restart");
+const startGame = document.getElementById("startGame")
 
 
 let currentQuiz = 0; 

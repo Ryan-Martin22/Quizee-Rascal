@@ -102,4 +102,10 @@ img {
     padding: 0px 10px 0px 10px;
     overflow: hidden;
 }
+ #scored {
+    font-size: 40px;
+ }
 
+ #finalScore {
+    font-size: 40px;
+ }

@@ -112,10 +112,8 @@ function loadQuiz() {
      }
 }
 
-/** clears the answer selection when another answer is submitted
- * @param {*} target
+/** clears selected answer
  */
-
 function clearSelection () {
    chosenAnswer = null;
    for (let answer of answers) 
@@ -124,10 +122,9 @@ function clearSelection () {
    }
 }
 
-/** checks answer is correct or wrong, returns an animation and adds score
- * @param {*} target
+/** checks user selection againist current asnwer
+ * @param {string} choice - selected answer
  */
-
 function checkAnswer(choice) {
    if(quizData[currentQuiz].correct === choice) {
       Swal.fire({
@@ -158,31 +155,34 @@ function checkAnswer(choice) {
 }
 }
 
-/** Ends game when all questions are complete and shows final score out of ten
- * @param {*} target
+/** Ends the game
  */
-
 function endGame() {
    showHide(gameSection);
    showHide(endSection);
    finalScore.innerText = `${score}/10`;
 }  
 
+/** Restart game button listener */
 restart.addEventListener("click", () => {
    location.reload(gameSection);
 })
 
-/** Teranry operator for cleaner more concise code */
-
+/**
+ * Toggles display of target element
+ * @param {object} target - HTML Elementto hide/show 
+ */
 function showHide(target) {
    target.classList.contains("hide") ? target.classList.remove("hide") : target.classList.add("hide");
 }
 
+/** Start game button listener */
 startGame.addEventListener("click", () => {
    showHide(welcomeSection);
    showHide(gameSection);
 });
 
+/** Submit button listener */
 submitBtn.addEventListener("click", () => {
     checkAnswer(chosenAnswer);
 });

@@ -142,3 +142,17 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
+## Credits 
+
+### Code
+*  A tutorial on Youtube gave me a base knowledge of steps needed to create a quiz and how to develop a basic quiz structure. [link][https://www.youtube.com/watch?v=dtKciwk_si4]
+
+### Content
+* All content was written by the developer. 
+
+### Media
+* All images were created by myself based of font obtained from dafont.com 
+
+### Acknowledgements
+* My Mentor for the continuous feedback and invaluable help i recieved throughout the duration of my project. 
+* My peers on Slack for assistance on all queries i had. 

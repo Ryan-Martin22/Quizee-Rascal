@@ -39,7 +39,7 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 ## Future Features 
 
 * In the future Quizze Rascal will feature a dropdown menu on the landing page were the user can choose from a range of categories. 
-* In the future a picture category will also be deplyed as part of Quizee Rascal. 
+* In the future a picture category will also be deployed as part of Quizee Rascal. 
 
 # User Stories 
 
@@ -49,4 +49,22 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 4. As a user i want the question i am choosing to be easily identifiable as to not choose the wrong question. 
 5. As a user i want instant feedback as to whether my choosen answer was correct or incorrect. 
 6. As a user i want to see my final acore and be able to try again to improve my score. 
+
+# Design 
+
+## Colour Scheme 
+
+* The main colours used for the quiz were white, light blue and a shade of blue called alicblue. These colours are inviting and clear to see for users of all ages. The colour blue is associated with freedom, imagination, intuition and inspiration. It is mentally an ideal colour for a user taking part in a quiz. 
+* The colours were aliceblue, white and rgb(101, 147, 233). 
+
+## Typography 
+
+* The font used for the questions and answers was Solway. Sans Serif was used as a fallback in case of the Google Fonts link not working. Soloway was used to ensure a level of fun and playfulness.[Google fonts]https://fonts.google.com/?query=solway.
+
+## Imagery 
+* The imagery used for this game was designed by myself. Using the K26 ToyBox font from dafont.com
+* I edited the image in Paint 3D by windows. 
+
+
+
 

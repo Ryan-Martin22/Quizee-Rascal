@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* quiz and question area*/
 
 body {
     background-color: aliceblue;
@@ -63,7 +64,9 @@ h2 {
     font-size: 1.1rem;
     cursor: pointer;
     
-}
+} 
+
+/* styling for all buttons*/
 
 button {
     background-color:rgb(101, 147, 233);
@@ -81,15 +84,21 @@ button:hover {
     background-color: rgb(58, 124, 245);
 }
 
+/* hide to not display elements with hide class until called */
+
 .hide {
     display: none;
 }
+
+/* highlights selected answers for better UX*/
 
 .selected {
     background-color: rgba(86, 185, 235, 0.5);
     padding: .1rem 0; 
 
 }  
+
+/* styling and repsonsivness for logo*/
 
 .logo {
     size: 20px;
@@ -102,6 +111,9 @@ img {
     padding: 0px 10px 0px 10px;
     overflow: hidden;
 }
+
+/* Score section at end of game*/
+
  #scored {
     font-size: 40px;
  }

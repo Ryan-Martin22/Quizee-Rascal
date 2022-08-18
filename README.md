@@ -28,3 +28,12 @@ Quizee Rascal is an online interactive quiz game. The quiz is based on general k
 
 * When the user hits the submits button, the user is the told whether the answer was correct or wrong. The user is greeted with a fun and pleasant animation. 
 
+![Mockup image](assets/images/Screenshot(141).png) 
+
+## Results Section 
+
+* When the ten questions are completed, the user is then greeted with the results section were the final score is shown. There is also a button the user can press to try again and for an improved score. 
+
+![Mockup Image](assets/images/Screenshot(142).png)
+
+

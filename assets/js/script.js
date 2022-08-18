@@ -143,7 +143,6 @@ function checkAnswer(choice) {
          showConfirmButton: false,
          timer: 1500
        }).then (() =>{
-         score++
          currentQuiz++
          loadQuiz();
       

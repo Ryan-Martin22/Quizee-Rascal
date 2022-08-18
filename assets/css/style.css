@@ -119,3 +119,10 @@ button:hover {
     padding-right: 5px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+}
+

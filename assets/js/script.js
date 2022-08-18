@@ -88,6 +88,7 @@ let currentQuiz = 0;
 let chosenAnswer; 
 let score = 0; 
 
+
 /** Function tha loads quiz when DOM is finished loading and retrieves questions from html  */
 
 loadQuiz();
@@ -95,7 +96,7 @@ loadQuiz();
 function loadQuiz() {
    const currentQuizData = quizData[currentQuiz];
 
-   clearSelection()
+   clearSelection();
 
    if (quizData.length !== currentQuiz) {
       questionElement.innerText = currentQuizData.question;
@@ -104,7 +105,7 @@ function loadQuiz() {
       answerC.innerText = currentQuizData.c;
       answerD.innerText = currentQuizData.d;
      }  else {
-      endGame()
+      endGame();
      }
 }
 
@@ -113,10 +114,10 @@ function loadQuiz() {
  */
 
 function clearSelection () {
-   chosenAnswer = null 
+   chosenAnswer = null;
    for (let answer of answers) 
    if (answer.classList.contains("selected")) {
-      answer.classList.remove("selected")
+      answer.classList.remove("selected");
    }
 }
 
@@ -133,10 +134,10 @@ function checkAnswer(choice) {
          showConfirmButton: false,
          timer: 1500
        }).then (() => {
-         score++
-         currentQuiz++
-         loadQuiz()
-       })
+         score++;
+         currentQuiz++;
+         loadQuiz();
+       });
       
       
    } else {
@@ -148,10 +149,10 @@ function checkAnswer(choice) {
          showConfirmButton: false,
          timer: 1500
        }).then (() =>{
-         currentQuiz++
+         currentQuiz++;
          loadQuiz();
       
-   }) 
+   });
 }
 }
 
@@ -168,28 +169,28 @@ function endGame() {
 /** Teranry operator for cleaner more concise code */
 
 function showHide(target) {
-   target.classList.contains("hide") ? target.classList.remove("hide") : target.classList.add("hide")
+   target.classList.contains("hide") ? target.classList.remove("hide") : target.classList.add("hide");
 }
 
-
 startGame.addEventListener("click", () => {
-   showHide(welcomeSection)
-   showHide(gameSection)
-})
+   showHide(welcomeSection);
+   showHide(gameSection);
+});
+
  
 submitBtn.addEventListener("click", () => {
-    checkAnswer(chosenAnswer)
+    checkAnswer(chosenAnswer);
 });
 
 for(let answer of answers) {
    answer.addEventListener("click", () => {
    if (chosenAnswer) {
-      clearSelection()
+      clearSelection();
    }
 
-   answer.classList.add("selected")
-   chosenAnswer = answer.dataset.selection
-   })
+   answer.classList.add("selected");
+   chosenAnswer = answer.dataset.selection;
+   });
 }
 
 
